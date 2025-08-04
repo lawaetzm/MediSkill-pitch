@@ -241,12 +241,43 @@
         }
 
         @media (max-width: 768px) {
+            .hero {
+                min-height: 80vh;
+                padding: 60px 0;
+            }
+            
+            .hero img {
+                height: 80px !important;
+                margin-bottom: 20px !important;
+            }
+            
             .hero h1 {
                 font-size: 2.5rem;
             }
             
             .hero h2 {
-                font-size: 1.4rem;
+                font-size: 1.3rem;
+                margin-bottom: 30px;
+            }
+            
+            .hero p {
+                font-size: 1rem;
+                padding: 0 10px;
+            }
+            
+            .section {
+                padding: 50px 0;
+            }
+            
+            .section h2 {
+                font-size: 2rem;
+                margin-bottom: 30px;
+            }
+            
+            .section p {
+                font-size: 1rem;
+                padding: 0 10px;
+                text-align: left !important;
             }
             
             .image-showcase {
@@ -256,11 +287,84 @@
             
             .features-grid {
                 grid-template-columns: 1fr;
+                gap: 20px;
             }
             
             .features-grid-four {
                 grid-template-columns: 1fr;
                 gap: 20px;
+            }
+            
+            .feature-card {
+                padding: 20px;
+                margin: 0 10px;
+            }
+            
+            .feature-card h4 {
+                font-size: 1.2rem;
+            }
+            
+            .feature-card p {
+                font-size: 0.95rem;
+            }
+            
+            .image-content {
+                padding: 10px;
+            }
+            
+            .image-content h4 {
+                font-size: 1.3rem;
+            }
+            
+            .container {
+                padding: 0 15px;
+            }
+            
+            .contact-info {
+                padding: 25px;
+                margin: 0 10px;
+            }
+            
+            .video-container {
+                margin: 20px 10px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .hero {
+                min-height: 70vh;
+                padding: 40px 0;
+            }
+            
+            .hero img {
+                height: 60px !important;
+                margin-bottom: 15px !important;
+            }
+            
+            .hero h2 {
+                font-size: 1.1rem;
+                margin-bottom: 20px;
+            }
+            
+            .hero p {
+                font-size: 0.9rem;
+            }
+            
+            .section {
+                padding: 40px 0;
+            }
+            
+            .section h2 {
+                font-size: 1.8rem;
+            }
+            
+            .feature-card {
+                padding: 15px;
+                margin: 0 5px;
+            }
+            
+            .container {
+                padding: 0 10px;
             }
         }
     </style>
