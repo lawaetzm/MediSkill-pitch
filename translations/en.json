@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "title": "MediSkill - Digital Support for Medical Training",
+    "lang": "en"
+  },
+  "hero": {
+    "subtitle": "Digital Support for Medical Training",
+    "tagline": "Structure, overview and coherence in competency development"
+  },
+  "about": {
+    "title": "Developed Where It's Used",
+    "description": "MediSkill was founded by Martin Lawaetz, specialist in vascular surgery. Inspired by gaps during his own training, it started as a local project and is now a fully functional digital tool. It has been developed and tested in the real everyday environment where doctors work. It has been important not to be just another documentation burden, but to be a tool that actually helps, makes documentation easier, and results in something that can be used concretely in daily practice.",
+    "features": {
+      "logbook": {
+        "title": "📋 Digital Logbook",
+        "description": "Standardized documentation of procedures and activities, always at hand."
+      },
+      "feedback": {
+        "title": "💬 Structured Feedback",
+        "description": "Systematic feedback through validated forms across training sites."
+      },
+      "competency": {
+        "title": "📊 Competency Overview",
+        "description": "Visual overview of progression and competency development."
+      },
+      "ai_mentor": {
+        "title": "🤖 AI Mentor Assistant",
+        "description": "24/7 guidance based on individual progression"
+      }
+    }
+  },
+  "platform": {
+    "title": "Platform Functionality",
+    "procedure_logging": {
+      "title": "Intuitive Procedure Logging",
+      "description": "Trainees log procedures easily directly in the app. The system supports all medical and surgical specialties, adapted to learning objectives and local processes.",
+      "highlight": "Reduced administrative burden, systematic and standardized data collection, and increased focus on learning."
+    },
+    "video_title": "See procedure logging in practice",
+    "feedback_system": {
+      "title": "Systematic and Structured Feedback",
+      "description": "Supervisors can provide structured feedback with objective assessments based on established assessment tools such as OSATS, NOTSS, Mini-CEX as well as specialty and procedure-specific assessment tools. The system also supports audio feedback with live transcription.",
+      "highlight": "Up to 100+ objective assessments per active trainee - an unprecedented insight into competency development, enabling focused development in areas that provide the most learning."
+    },
+    "integration_video_title": "See how MediSkill easily integrates into a busy workday"
+  },
+  "analytics": {
+    "title": "Data-Driven Competency Development",
+    "procedure_overview": {
+      "title": "Detailed Procedure Overview",
+      "description": "Systematic registration and visualization of all procedures divided by type and level of independence. Color-coded progression from assistant to independent execution gives both trainees and supervisors a precise overview of where to focus in further training.",
+      "highlight": "Evidence-based approach to competency development with documentation of actual experience rather than theoretical knowledge."
+    },
+    "realtime_overview": {
+      "title": "Real-time Progression Overview",
+      "description": "Visual and user-friendly presentation of trainees' progression with trends over time. Training coordinators and supervisors can follow development and identify areas needing focused training."
+    },
+    "competency_profiles": {
+      "title": "Competency Profiles",
+      "description": "Detailed overview of progression and skills creates competency profiles based on trainees' actual daily work. This also creates national standards and supports health authority recommendations for competency profiles.",
+      "highlight": "Tailored training programs based on individual competency profiles."
+    }
+  },
+  "ai_mentor": {
+    "title": "AI Mentor Assistant",
+    "integrated_mentoring": {
+      "title": "Integrated Mentoring Sessions",
+      "description": "Supervisor meetings can take place directly in MediSkill, where all relevant information about the trainee is displayed. The structure follows health authority recommendations and is adapted to learning objectives. Supervisor forms can be completed in MediSkill and printed/saved directly.",
+      "bullets": [
+        "Planning and structure ensure continuity",
+        "All historical data available during the session ensures efficiency",
+        "AI-assisted preparation and follow-up"
+      ]
+    },
+    "intelligent_guidance": {
+      "title": "24/7 Intelligent Guidance",
+      "description": "Both trainees and supervisors have access to an AI mentor with deep insight into individual progression. The system can answer questions about progress, suggest focus areas, and provide personal recommendations.",
+      "highlight": "\"How is the trainee's progress in the last two months?\" - The AI analyzes data and provides concrete answers about procedures, independence, and progression."
+    },
+    "procedure_list": {
+      "title": "Print Your Procedure List",
+      "description": "No more pocket books and Excel sheets in different formats. Standardized documentation ensures uniform CV presentation in a predefined format designed according to learning objectives and local processes. Available 24/7 and always updated."
+    },
+    "wellness_monitoring": {
+      "title": "Wellness and Work Environment Monitoring",
+      "description": "The MediLife module enables monitoring of wellness and work environment on selected parameters. Good wellness and optimal competency development are inextricably linked, and continuous monitoring enables timely intervention."
+    }
+  },
+  "cta": {
+    "title": "Get Started with MediSkill",
+    "subtitle": "Experience how MediSkill can transform your medical training",
+    "demo_title": "Book a demo today",
+    "benefit1": "• <strong>Free demonstration</strong> of all platform features",
+    "benefit2": "• <strong>Customization to your needs</strong> and specialty areas",
+    "benefit3": "• <strong>Implementation and support</strong> throughout the process",
+    "benefit4": "• <strong>No obligations</strong> - see first what MediSkill can offer",
+    "contact_title": "Contact us",
+    "contact_info": {
+      "email": "info@mediskill.dk",
+      "phone": "+45 31 54 08 85",
+      "website": "mediskill.dk"
+    },
+    "founder_info": "Martin Lawaetz - Founder & CEO<br>Specialist in Vascular Surgery",
+    "quote": "\"From my own experience, I know how important good supervision and feedback are.<br>MediSkill makes it possible to systematize and optimize these processes<br>for the benefit of trainees, supervisors, and ultimately patients.\""
+  }
+}

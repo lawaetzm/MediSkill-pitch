@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "title": "MediSkill - Digital stöd för läkarutbildning",
+    "lang": "sv"
+  },
+  "hero": {
+    "subtitle": "Digital stöd för läkarutbildning",
+    "tagline": "Översikt, struktur och sammanhang i kompetensutvecklingen"
+  },
+  "about": {
+    "title": "Utvecklad där den används",
+    "description": "MediSkill grundades av Martin Lawaetz, specialist i kärlkirurgi. Inspirerad av brister under sin egen utbildning började det som ett lokalt projekt och är nu ett fullt funktionellt digitalt verktyg. Det har utvecklats och testats i den verkliga vardagen där läkare arbetar. Det har varit viktigt att inte bara vara ytterligare en dokumentationsbörda, utan att vara ett verktyg som faktiskt hjälper, gör dokumentation enklare och resulterar i något som kan användas konkret i vardagen.",
+    "features": {
+      "logbook": {
+        "title": "📋 Digital loggbok",
+        "description": "Standardiserad dokumentation av procedurer och aktiviteter, alltid till hands."
+      },
+      "feedback": {
+        "title": "💬 Strukturerad feedback",
+        "description": "Systematisk feedback genom validerade formulär över utbildningsplatser."
+      },
+      "competency": {
+        "title": "📊 Kompetensöversikt",
+        "description": "Visuell översikt över progression och kompetensutveckling."
+      },
+      "ai_mentor": {
+        "title": "🤖 AI Mentor Assistent",
+        "description": "24/7 vägledning baserad på individuell progression"
+      }
+    }
+  },
+  "platform": {
+    "title": "Plattformens funktionalitet",
+    "procedure_logging": {
+      "title": "Intuitiv procedurloggning",
+      "description": "Utbildningsläkare loggar enkelt procedurer direkt i appen. Systemet stöder alla medicinska och kirurgiska specialiteter, anpassat till utbildningsmål och lokala processer.",
+      "highlight": "Minskad administrativ börda, systematisk och standardiserad datainsamling och ökat fokus på lärande."
+    },
+    "video_title": "Se procedurloggning i praktiken",
+    "feedback_system": {
+      "title": "Systematisk och strukturerad feedback",
+      "description": "Handledare kan ge strukturerad feedback med objektiva bedömningar baserade på etablerade bedömningsverktyg som OSATS, NOTSS, Mini-CEX samt specialitets- och procedurspecifika bedömningsverktyg. Systemet stöder också ljudfeedback med live-transkription.",
+      "highlight": "Upp till 100+ objektiva bedömningar per aktiv läkare - en tidigare oanad insikt i kompetensutveckling, vilket möjliggör fokuserat utveckling inom områden som ger mest lärande."
+    },
+    "integration_video_title": "Se hur MediSkill enkelt integreras i en hektisk arbetsdag"
+  },
+  "analytics": {
+    "title": "Datadriven kompetensutveckling",
+    "procedure_overview": {
+      "title": "Detaljerad procedur översikt",
+      "description": "Systematisk registrering och visualisering av alla procedurer uppdelade efter typ och självständighetsnivå. Färgkodad progression från assistent till självständigt utförande ger både utbildningsläkare och handledare en precis översikt över var fokus ska läggas i den fortsatta utbildningen.",
+      "highlight": "Evidensbaserad approach till kompetensutveckling med dokumentation av faktisk erfarenhet snarare än teoretisk kunskap."
+    },
+    "realtime_overview": {
+      "title": "Realtidsöversikt över progression",
+      "description": "Visuell och användarvänlig presentation av utbildningsläkarnas progression med trender över tid. Utbildningsansvariga och handledare kan följa utveckling och identifiera områden som behöver fokuserad träning."
+    },
+    "competency_profiles": {
+      "title": "Kompetensprofiler",
+      "description": "Detaljerad översikt över progression och färdigheter skapar kompetensprofiler baserade på utbildningsläkarnas faktiska vardag. Detta skapar också nationella standarder och stöder hälsomyndigheternas rekommendationer för kompetensprofiler.",
+      "highlight": "Skräddarsydda utbildningsprogram baserade på individuella kompetensprofiler."
+    }
+  },
+  "ai_mentor": {
+    "title": "AI Mentor Assistent",
+    "integrated_mentoring": {
+      "title": "Integrerade handledningssamtal",
+      "description": "Handledningssamtal kan äga rum direkt i MediSkill, där all relevant information om utbildningsläkaren visas. Strukturen följer hälsomyndigheternas rekommendationer och anpassas till utbildningsmål. Handledarformulär kan fyllas i i MediSkill och skrivas ut/sparas direkt.",
+      "bullets": [
+        "Planering och struktur säkerställer kontinuitet",
+        "All historisk data tillgänglig under samtalet säkerställer effektivitet",
+        "AI-assisterad förberedelse och uppföljning"
+      ]
+    },
+    "intelligent_guidance": {
+      "title": "24/7 intelligent vägledning",
+      "description": "Både utbildningsläkare och handledare har tillgång till en AI-mentor med djup insikt i individuell progression. Systemet kan svara på frågor om framsteg, föreslå fokusområden och ge personliga rekommendationer.",
+      "highlight": "\"Hur går det med läkarens framsteg de senaste två månaderna?\" - AI:n analyserar data och ger konkreta svar om procedurer, självständighet och progression."
+    },
+    "procedure_list": {
+      "title": "Skriv ut din procedurlista",
+      "description": "Slut med fickböcker och Excel-ark i olika format. Standardiserad dokumentation säkerställer enhetlig CV-presentation i ett fördefinierat format designat enligt utbildningsmål och lokala processer. Tillgänglig 24/7 och alltid uppdaterad."
+    },
+    "wellness_monitoring": {
+      "title": "Mätning av välbefinnande och arbetsmiljö",
+      "description": "MediLife-modulen möjliggör övervakning av välbefinnande och arbetsmiljö på utvalda parametrar. Gott välbefinnande och optimal kompetensutveckling hänger oupplösligt samman, och kontinuerlig övervakning möjliggör snabb insats."
+    }
+  },
+  "cta": {
+    "title": "Kom igång med MediSkill",
+    "subtitle": "Upplev hur MediSkill kan transformera er läkarutbildning",
+    "demo_title": "Boka en demo idag",
+    "benefit1": "• <strong>Gratis demonstration</strong> av alla plattformens funktioner",
+    "benefit2": "• <strong>Anpassning till era behov</strong> och specialitetsområden", 
+    "benefit3": "• <strong>Implementation och support</strong> genom hela processen",
+    "benefit4": "• <strong>Inga förpliktelser</strong> - se först vad MediSkill kan erbjuda",
+    "contact_title": "Kontakta oss",
+    "contact_info": {
+      "email": "info@mediskill.dk",
+      "phone": "+45 31 54 08 85",
+      "website": "mediskill.dk"
+    },
+    "founder_info": "Martin Lawaetz - Grundare & VD<br>Specialist i kärlkirurgi",
+    "quote": "\"Från egen erfarenhet vet jag hur viktig god handledning och feedback är.<br>MediSkill gör det möjligt att systematisera och optimera dessa processer<br>till förmån för utbildningsläkare, handledare och i slutändan patienter.\""
+  }
+}
