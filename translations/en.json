@@ -84,6 +84,120 @@
     "wellness_monitoring": {
       "title": "Wellness and Work Environment Monitoring",
       "description": "The MediLife module enables monitoring of wellness and work environment on selected parameters. Good wellness and optimal competency development are inextricably linked, and continuous monitoring enables timely intervention."
+    },
+    "chatbox": {
+      "title": "AI Mentor Assistant",
+      "subtitle": "Ask questions about trainee data, progress, or get insights based on historical data",
+      "user_message": "How is the trainee's progress in the last two months?",
+      "ai_response": "- Procedures are primarily performed as \"Primary without supervision\", indicating a high degree of independence. 83 procedures were performed without supervision and 13 procedures as \"Primary with supervision\" in the last two months.<br><br>- The average assessment score is stable around 4.5/5, showing stable and competent performance. Recent assessments show a score of 4.0/5 for Lap. Appendectomy.<br><br>- Comments include excellent dexterity and critical thinking, highlighting the trainee's technical skills and reflection abilities. - Need for training in leadership and communication in high-pressure situations is also noted.<br><br>The trainee shows stable progress with a high degree of independence in procedure execution. Communication and leadership training can be focused on.",
+      "input_placeholder": "Type your message here..."
+    },
+    "scheduling": {
+      "conversations_title": "Your Mentor Conversations",
+      "ai_assistant_title": "Mentor AI Assistant",
+      "tabs": {
+        "scheduled": "Scheduled",
+        "completed": "Completed",
+        "all": "All"
+      },
+      "conversations": [
+        {
+          "title": "Conversation",
+          "status": "Scheduled",
+          "date": "12. Aug. 2025, 06:18",
+          "description": "Introduction conversation"
+        },
+        {
+          "title": "Conversation",
+          "status": "Scheduled",
+          "date": "15. Oct. 2026, 06:19", 
+          "description": "Adjustment conversation"
+        }
+      ],
+      "ai_welcome": "Hello! I am your mentee AI assistant. Ask me about your progress, procedure distribution, or anything else related to your data. For example, \"How is my progress in the last two months?\" or \"How often do I perform procedures independently?\"",
+      "input_placeholder": "Ask a question..."
+    },
+    "conversation_modal": {
+      "introduction": {
+        "title": "Introduction Conversation",
+        "total_indicator": "1 Total",
+        "date": "10.9.2025 13.04",
+        "participants": {
+          "mentor": "Mette Frederiksen",
+          "mentee": "Poul Nyrup",
+          "mentor_label": "Mentor:",
+          "mentee_label": "Mentee:"
+        },
+        "status": "Scheduled",
+        "sections": {
+          "tidligere": {
+            "title": "Earlier",
+            "content": "Trainee's previous employments, other experiences, learning style, etc."
+          },
+          "opfolgning": {
+            "title": "Follow-up on last employment",
+            "content": "Most important learning outcomes and special focus areas in previous positions."
+          },
+          "kompetencer": {
+            "title": "How can the individual competencies in the position be achieved?",
+            "content": "Expectation alignment regarding work areas, etc. Review competencies in the logbook and discuss learning opportunities for individual competencies."
+          },
+          "supervision": {
+            "title": "Supervision",
+            "content": "Agreements on fixed and ad hoc supervision."
+          },
+          "kompetencevurdering": {
+            "title": "Plan for competency assessment",
+            "content": "How? When?"
+          },
+          "kompetencegodkendelse": {
+            "title": "Plan for competency approval",
+            "content": "In the period  /  -  /        Planned approval of competencies no.:"
+          },
+          "kursusdeltagelse": {
+            "title": "Planned course participation",
+            "content": "Mandatory courses. Desired expectations for other courses, congresses, etc."
+          }
+        }
+      },
+      "adjustment": {
+        "title": "Adjustment Conversation",
+        "total_indicator": "1 Total",
+        "date": "11.11.2025 13.39",
+        "participants": {
+          "mentor": "Mette Frederiksen",
+          "mentee": "Poul Nyrup",
+          "mentor_label": "Mentor:",
+          "mentee_label": "Mentee:"
+        },
+        "status": "Scheduled",
+        "sections": {
+          "justeringssamtale": {
+            "title": "Adjustment Conversation",
+            "content": "A minimum of 1 adjustment conversation is held in each employment. With 12-month employments often more, e.g. every 3 months."
+          },
+          "punkter": {
+            "title": "Points:",
+            "content": "How is your training program going in general?<br><br>Has the planned learning been achieved? Review the logbook: Has the expected number of competencies been approved? (If problems: Involve education coordinator/PKL)"
+          },
+          "aftaler": {
+            "title": "Agreements for the coming period/adjustments to the training plan",
+            "content": "Note agreements about the coming period based on the training plan"
+          },
+          "uddannelseslaegens_opgaver": {
+            "title": "Trainee's tasks",
+            "content": "Tasks that the trainee should perform"
+          },
+          "tutorlaegen_opgaver": {
+            "title": "Supervisor's tasks",
+            "content": "Tasks that the supervisor should perform"
+          },
+          "naeste_samtale": {
+            "title": "Date for next conversation",
+            "content": ""
+          }
+        }
+      }
     }
   },
   "cta": {

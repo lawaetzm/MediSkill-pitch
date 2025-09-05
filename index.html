@@ -4,473 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title data-translate="meta.title">MediSkill - Digital understøttelse af lægelig videreuddannelse</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        .hero {
-            background: linear-gradient(135deg, rgba(102, 126, 234, 0.9) 0%, rgba(118, 75, 162, 0.9) 100%);
-            color: white;
-            padding: 80px 20px;
-            text-align: center;
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            overflow: hidden;
-        }
-
-        .hero h1 {
-            font-size: 3.5rem;
-            margin-bottom: 20px;
-            font-weight: 300;
-        }
-
-        .hero h2 {
-            font-size: 1.8rem;
-            margin-bottom: 40px;
-            font-weight: 400;
-            opacity: 0.9;
-        }
-
-        .hero p {
-            font-size: 1.2rem;
-            max-width: 800px;
-            margin: 0 auto;
-            opacity: 0.8;
-        }
-
-        .section {
-            padding: 80px 0;
-            background: white;
-        }
-
-        .section:nth-child(even) {
-            background: #f8f9fa;
-        }
-
-        .section h2 {
-            font-size: 2.5rem;
-            margin-bottom: 40px;
-            text-align: center;
-            color: #667eea;
-        }
-
-        .section h3 {
-            font-size: 1.8rem;
-            margin: 30px 0 15px 0;
-            color: #764ba2;
-        }
-
-        .section p {
-            font-size: 1.1rem;
-            margin-bottom: 20px;
-            max-width: 800px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .features-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 40px;
-            margin: 60px 0;
-        }
-
-        .features-grid-four {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 30px;
-            margin: 60px 0;
-        }
-
-        .feature-card {
-            background: white;
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-            text-align: center;
-            transition: transform 0.3s ease;
-        }
-
-        .feature-card:hover {
-            transform: translateY(-5px);
-        }
-
-        .feature-card h4 {
-            font-size: 1.4rem;
-            margin-bottom: 15px;
-            color: #667eea;
-        }
-
-        .image-showcase {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 40px;
-            margin: 60px 0;
-            align-items: center;
-        }
-
-        .image-showcase img {
-            width: 100%;
-            border-radius: 15px;
-            box-shadow: 0 15px 40px rgba(0,0,0,0.1);
-        }
-
-        .image-content {
-            padding: 20px;
-        }
-
-        .image-content h4 {
-            font-size: 1.6rem;
-            margin-bottom: 20px;
-            color: #764ba2;
-        }
-
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 30px;
-            margin: 40px 0;
-        }
-
-        .stat-card {
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            color: white;
-            padding: 30px;
-            border-radius: 15px;
-            text-align: center;
-        }
-
-        .stat-number {
-            font-size: 3rem;
-            font-weight: bold;
-            display: block;
-        }
-
-        .stat-label {
-            font-size: 1rem;
-            opacity: 0.9;
-        }
-
-        .cta-section {
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            color: white;
-            padding: 80px 0;
-            text-align: center;
-        }
-
-        .cta-section h2 {
-            color: white;
-            margin-bottom: 30px;
-        }
-
-        .contact-info {
-            background: rgba(255,255,255,0.1);
-            padding: 40px;
-            border-radius: 15px;
-            max-width: 600px;
-            margin: 0 auto;
-        }
-
-        .scroll-indicator {
-            position: absolute;
-            bottom: 30px;
-            left: 50%;
-            transform: translateX(-50%);
-            color: white;
-            font-size: 2rem;
-            animation: bounce 2s infinite;
-        }
-
-        @keyframes bounce {
-            0%, 20%, 50%, 80%, 100% {
-                transform: translateX(-50%) translateY(0);
-            }
-            40% {
-                transform: translateX(-50%) translateY(-10px);
-            }
-            60% {
-                transform: translateX(-50%) translateY(-5px);
-            }
-        }
-
-        .highlight-box {
-            background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1));
-            border-left: 4px solid #667eea;
-            padding: 25px;
-            margin: 30px 0;
-            border-radius: 0 15px 15px 0;
-        }
-
-        .video-section {
-            text-align: center;
-            margin: 60px 0;
-        }
-
-        .video-container {
-            position: relative;
-            max-width: 800px;
-            margin: 40px auto;
-            border-radius: 15px;
-            box-shadow: 0 15px 40px rgba(0,0,0,0.1);
-            overflow: hidden;
-        }
-
-        .video-container video {
-            width: 100%;
-            height: auto;
-            display: block;
-            border-radius: 15px;
-        }
-
-        @media (max-width: 1024px) and (min-width: 769px) {
-            .hero {
-                padding: 60px 30px;
-            }
-            
-            .hero img {
-                height: 100px !important;
-                margin-bottom: 30px !important;
-            }
-            
-            .hero h2 {
-                font-size: 1.6rem;
-            }
-            
-            .hero p {
-                font-size: 1.1rem;
-                padding: 0 20px;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .hero {
-                min-height: 100vh;
-                padding: 40px 15px;
-                justify-content: center;
-            }
-            
-            .hero .container {
-                width: 100%;
-                max-width: 100%;
-                padding: 0;
-            }
-            
-            .hero img {
-                height: 70px !important;
-                margin-bottom: 25px !important;
-                max-width: 90%;
-            }
-            
-            .hero h1 {
-                font-size: 2rem;
-                margin-bottom: 15px;
-            }
-            
-            .hero h2 {
-                font-size: 1.2rem;
-                margin-bottom: 25px;
-                padding: 0 10px;
-                line-height: 1.4;
-            }
-            
-            .hero p {
-                font-size: 0.95rem;
-                padding: 0 15px;
-                line-height: 1.5;
-                max-width: 90%;
-                margin: 0 auto;
-            }
-            
-            .section {
-                padding: 50px 0;
-            }
-            
-            .section h2 {
-                font-size: 2rem;
-                margin-bottom: 30px;
-            }
-            
-            .section p {
-                font-size: 1rem;
-                padding: 0 10px;
-                text-align: left !important;
-            }
-            
-            .image-showcase {
-                grid-template-columns: 1fr;
-                gap: 20px;
-            }
-            
-            .features-grid {
-                grid-template-columns: 1fr;
-                gap: 20px;
-            }
-            
-            .features-grid-four {
-                grid-template-columns: 1fr;
-                gap: 20px;
-            }
-            
-            .feature-card {
-                padding: 20px;
-                margin: 0 10px;
-            }
-            
-            .feature-card h4 {
-                font-size: 1.2rem;
-            }
-            
-            .feature-card p {
-                font-size: 0.95rem;
-            }
-            
-            .image-content {
-                padding: 10px;
-            }
-            
-            .image-content h4 {
-                font-size: 1.3rem;
-            }
-            
-            .container {
-                padding: 0 15px;
-            }
-            
-            .contact-info {
-                padding: 25px;
-                margin: 0 10px;
-            }
-            
-            .video-container {
-                margin: 20px 10px;
-            }
-        }
-        
-        .language-switcher {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            z-index: 1000;
-            display: flex;
-            gap: 10px;
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            border-radius: 25px;
-            padding: 8px 15px;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-        }
-
-        .lang-btn {
-            background: none;
-            border: none;
-            color: white;
-            font-size: 0.9rem;
-            font-weight: 500;
-            padding: 5px 10px;
-            border-radius: 15px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            opacity: 0.7;
-        }
-
-        .lang-btn:hover {
-            opacity: 1;
-            background: rgba(255, 255, 255, 0.1);
-        }
-
-        .lang-btn.active {
-            opacity: 1;
-            background: rgba(255, 255, 255, 0.2);
-            font-weight: 600;
-        }
-
-        @media (max-width: 768px) {
-            .language-switcher {
-                top: 15px;
-                right: 15px;
-                padding: 6px 12px;
-            }
-            
-            .lang-btn {
-                font-size: 0.8rem;
-                padding: 4px 8px;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .hero {
-                min-height: 100vh;
-                padding: 30px 10px;
-                justify-content: center;
-            }
-            
-            .hero img {
-                height: 55px !important;
-                margin-bottom: 20px !important;
-                max-width: 85%;
-            }
-            
-            .hero h1 {
-                font-size: 1.8rem;
-                margin-bottom: 12px;
-            }
-            
-            .hero h2 {
-                font-size: 1rem;
-                margin-bottom: 20px;
-                padding: 0 5px;
-                line-height: 1.3;
-            }
-            
-            .hero p {
-                font-size: 0.85rem;
-                padding: 0 10px;
-                line-height: 1.4;
-                max-width: 95%;
-            }
-            
-            .scroll-indicator {
-                font-size: 1.5rem;
-                bottom: 20px;
-            }
-            
-            .section {
-                padding: 40px 0;
-            }
-            
-            .section h2 {
-                font-size: 1.8rem;
-            }
-            
-            .feature-card {
-                padding: 15px;
-                margin: 0 5px;
-            }
-            
-            .container {
-                padding: 0 10px;
-            }
-        }
-    </style>
+    
+    <!-- External Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
     <!-- Language Switcher -->
@@ -478,12 +16,13 @@
         <button class="lang-btn active" data-lang="da">DK</button>
         <button class="lang-btn" data-lang="en">EN</button>
         <button class="lang-btn" data-lang="sv">SV</button>
+        <button class="lang-btn" data-lang="de">DE</button>
     </div>
 
     <!-- Hero Section -->
     <section class="hero">
         <div class="container">
-            <img src="images/logo.png" alt="MediSkill Logo" style="height: 120px; margin-bottom: 30px;">
+            <img src="images/logo.png" alt="MediSkill Logo" class="hero-logo">
             <h2 data-translate="hero.subtitle">Digital understøttelse af lægelig videreuddannelse</h2>
             <p data-translate="hero.tagline">Overblik, struktur og sammenhæng i kompetenceudviklingen</p>
             <div class="scroll-indicator">↓</div>
@@ -494,7 +33,7 @@
     <section class="section">
         <div class="container">
             <h2 data-translate="about.title">Udviklet dér hvor det bruges</h2>
-            <p data-translate="about.description" style="text-align: center; font-size: 1.2rem; margin-bottom: 40px;">
+            <p data-translate="about.description" class="section-description">
                 MediSkill er grundlagt af Martin Lawaetz, speciallæge i karkirurgi. Inspireret af mangler under sin egen uddannelse, startede det som et lokal projekt og er nu et fuldt funktionsdygtigt digitalt værktøj.
                 Det er udviklet og testet i den rigtige hverdag som lægerne arbejder i. Det har været vigtigt ikke blot at være endnu en dokumentationsbyrde, men være et værktøj der faktisk hjælper, gør det nemmere at dokumentere, og resulterer i noget der kan bruges konkret i hverdagen.
             </p>
@@ -537,7 +76,7 @@
             </div>
 
             <div class="video-section">
-                <h3 data-translate="platform.video_title" style="font-size: 1.8rem; margin-bottom: 20px; color: #764ba2;">Se procedure logging i praksis</h3>
+                <h3 data-translate="platform.video_title" class="video-title">Se procedure logging i praksis</h3>
                 <div class="video-container">
                     <video controls>
                         <source src="images/log_procedure.mp4" type="video/mp4">
@@ -558,7 +97,7 @@
             </div>
 
             <div class="video-section">
-                <h3 data-translate="platform.integration_video_title" style="font-size: 1.8rem; margin-bottom: 20px; color: #764ba2;">Se hvordan MediSkill let integreres i en travl hverdag</h3>
+                <h3 data-translate="platform.integration_video_title" class="video-title">Se hvordan MediSkill let integreres i en travl hverdag</h3>
                 <div class="video-container">
                     <video controls>
                         <source src="images/Animation_short.mp4" type="video/mp4">
@@ -612,11 +151,11 @@
             <h2 data-translate="ai_mentor.title">AI Mentor Assistant</h2>
             
             <div class="image-showcase">
-                <img src="images/mentor-scheduling.png" alt="Mentor conversation scheduling">
+                <div id="mentor-scheduling-container"></div>
                 <div class="image-content">
                     <h4 data-translate="ai_mentor.integrated_mentoring.title">Integrerede Mentor-samtaler</h4>
                     <p data-translate="ai_mentor.integrated_mentoring.description">Vejledersamtaler kan foregå direkte i MediSkill, hvor al relevant information om uddannelseslægen fremgår. Strukturen følger SST's anbefalinger og tilpasses målbeksrivelser. Vejlederskemaer kan udfyldes i MediSkill og printes/gemmes direkte.</p>
-                    <ul style="margin: 20px 0;">
+                    <ul class="feature-list">
                         <li data-translate="ai_mentor.integrated_mentoring.bullets.0">Planlægning og struktur sikrer kontinuitet</li>
                         <li data-translate="ai_mentor.integrated_mentoring.bullets.1">Al historisk data tilgængelig under samtalen sikrer effektivitet</li>
                         <li data-translate="ai_mentor.integrated_mentoring.bullets.2">AI-assisteret forberedelse og opfølgning</li>
@@ -632,53 +171,62 @@
                         <span data-translate="ai_mentor.intelligent_guidance.highlight"><strong>Eksempel:</strong> "Hvordan går det med lægens fremgang i de sidste to måneder?" - AI'en analyserer data og giver konkrete svar om procedurer, selvstændighed og progression.</span>
                     </div>
                 </div>
-                <img src="images/ai-mentor-conversation.png" alt="AI Mentor conversation interface">
+                <div id="ai-chatbox-container"></div>
             </div>
+        </div>
+    </section>
 
+    <!-- Procedure List Section -->
+    <section class="section">
+        <div class="container">
+            <h2 data-translate="procedure_list.title">Print din procedureliste</h2>
+            
             <div class="image-showcase">
                 <img src="images/opliste.png" alt="Procedure overview interface">
                 <div class="image-content">
-                    <h4 data-translate="ai_mentor.procedure_list.title">Print din procedureliste</h4>
-                    <p data-translate="ai_mentor.procedure_list.description">Slut med lommebøger og excel ark i forskellige formater. Standardiseret dokumentation sikrer ensartet CV præsentation, i et prædefineret format designet efter målbeskrivelser og lokale processer. Tilgængelig 24/7 og altid opdateret.</p>
+                    <p data-translate="procedure_list.description">Slut med lommebøger og excel ark i forskellige formater. Standardiseret dokumentation sikrer ensartet CV præsentation, i et prædefineret format designet efter målbeskrivelser og lokale processer. Tilgængelig 24/7 og altid opdateret.</p>
                 </div>
             </div>
+        </div>
+    </section>
 
+    <!-- Wellness Monitoring Section -->
+    <section class="section">
+        <div class="container">
+            <h2 data-translate="wellness_monitoring.title">Måling af trivsel og arbejdsmiljø</h2>
+            
             <div class="image-showcase">
                 <div class="image-content">
-                    <h4 data-translate="ai_mentor.wellness_monitoring.title">Måling af trivsel og arbejdsmiljø</h4>
-                    <p data-translate="ai_mentor.wellness_monitoring.description">MediLife modulet giver mulighed for monitorering af trivsel og arbejdsmiljø på udvalgte parametre. God trivsel og optimal kompetenceudvikling hænger uløseligt sammen, og kontinuerlig monitorering giver mulighed for at sætte ind i tide.</p>
+                    <p data-translate="wellness_monitoring.description">MediLife modulet giver mulighed for monitorering af trivsel og arbejdsmiljø på udvalgte parametre. God trivsel og optimal kompetenceudvikling hænger uløseligt sammen, og kontinuerlig monitorering giver mulighed for at sætte ind i tide.</p>
                 </div>
                 <img src="images/burnout.png" alt="MediLife wellness monitoring">
             </div>
         </div>
     </section>
 
-
-
-
     <!-- Call to Action -->
     <section class="cta-section">
         <div class="container">
             <h2 data-translate="cta.title">Kom i gang med MediSkill</h2>
-            <p data-translate="cta.subtitle" style="font-size: 1.2rem; margin-bottom: 40px;">
+            <p data-translate="cta.subtitle" class="cta-subtitle">
                 Oplev hvordan MediSkill kan transformere jeres lægelige videreuddannelse
             </p>
             
             <div class="contact-info">
-                <h3 data-translate="cta.demo_title" style="margin-bottom: 20px;">Book en demo i dag</h3>
+                <h3 data-translate="cta.demo_title" class="demo-title">Book en demo i dag</h3>
                 <p data-translate="cta.benefit1">• <strong>Gratis demonstration</strong> af alle platformens funktioner</p>
                 <p data-translate="cta.benefit2">• <strong>Tilpasning til jeres behov</strong> og specialeområder</p>
                 <p data-translate="cta.benefit3">• <strong>Implementation og support</strong> gennem hele processen</p>
                 
-                <div style="margin-top: 40px; padding-top: 30px; border-top: 1px solid rgba(255,255,255,0.3);">
+                <div class="contact-details">
                     <h4 data-translate="cta.contact_title">Kontakt os</h4>
-                    <p style="margin-top: 20px;">
+                    <p class="contact-methods">
                         📧 <strong>info@mediskill.dk</strong><br>
                         📞 <strong>+45 31 54 08 85</strong><br>
                         🌐 <strong>mediskill.dk</strong>
                     </p>
-                    <div style="margin-top: 20px;">
-                        <p data-translate="cta.founder_info" style="font-size: 0.95rem; opacity: 0.9;">
+                    <div class="founder-info">
+                        <p data-translate="cta.founder_info" class="founder-details">
                             Martin Lawaetz - Grundlægger & CEO<br>
                             Speciallæge i Karkirurgi
                         </p>
@@ -686,7 +234,7 @@
                 </div>
             </div>
             
-            <div data-translate="cta.quote" style="margin-top: 40px; font-style: italic; font-size: 1.1rem;">
+            <div data-translate="cta.quote" class="cta-quote">
                 "Fra egen erfaring ved jeg, hvor vigtig god supervision og feedback er.<br>
                 MediSkill gør det muligt at systematisere og optimere disse processer<br>
                 til gavn for både uddannelseslæger, vejledere og i sidste ende patienterne."
@@ -694,365 +242,14 @@
         </div>
     </section>
 
-    <script>
-        // Language switching functionality
-        class LanguageSwitcher {
-            constructor() {
-                this.currentLang = localStorage.getItem('mediskill-lang') || 'da';
-                this.translations = this.getEmbeddedTranslations();
-                this.init();
-            }
+    <!-- JavaScript Dependencies -->
+    <script src="js/utils/translation-utils.js"></script>
+    <script src="js/translation-loader.js"></script>
+    <script src="js/components/conversation-modal.js"></script>
+    <script src="js/components/chatbox.js"></script>
+    <script src="js/components/mentor-scheduling.js"></script>
+    <script src="js/language-switcher.js"></script>
+    <script src="js/main.js"></script>
 
-            init() {
-                this.setupEventListeners();
-                this.setLanguage(this.currentLang);
-                console.log('LanguageSwitcher initialized with translations:', Object.keys(this.translations));
-            }
-
-            getEmbeddedTranslations() {
-                return {
-                    da: {
-                        "meta": { "title": "MediSkill - Digital understøttelse af lægelig videreuddannelse" },
-                        "hero": {
-                            "subtitle": "Digital understøttelse af lægelig videreuddannelse",
-                            "tagline": "Overblik, struktur og sammenhæng i kompetenceudviklingen"
-                        },
-                        "about": {
-                            "title": "Udviklet dér hvor det bruges",
-                            "description": "MediSkill er grundlagt af Martin Lawaetz, speciallæge i karkirurgi. Inspireret af mangler under sin egen uddannelse, startede det som et lokal projekt og er nu et fuldt funktionsdygtigt digitalt værktøj. Det er udviklet og testet i den rigtige hverdag som lægerne arbejder i. Det har været vigtigt ikke blot at være endnu en dokumentationsbørde, men være et værktøj der faktisk hjælper, gør det nemmere at dokumentere, og resulterer i noget der kan bruges konkret i hverdagen.",
-                            "features": {
-                                "logbook": { "title": "📋 Digital Logbog", "description": "Standardiseret dokumentation af procedurer og aktiviteter, altid ved hånden." },
-                                "feedback": { "title": "💬 Struktureret Feedback", "description": "Systematisk feedback gennem validerede skemaer og på tværs af uddannelsessteder." },
-                                "competency": { "title": "📊 Kompetenceoverblik", "description": "Visuel overblik over progression og kompetenceudvikling." },
-                                "ai_mentor": { "title": "🤖 AI Mentor Assistant", "description": "24/7 vejledning baseret på individuel progression" }
-                            }
-                        },
-                        "platform": { 
-                            "title": "Platformens Funktionalitet",
-                            "procedure_logging": {
-                                "title": "Intuitiv Procedure Logging",
-                                "description": "Uddannelseslæger logger nemt procedurer direkte i appen. Systemet understøtter alle medicinske og kirurgiske specialer, tilpasses målbeskrivelser og lokale processer.",
-                                "highlight": "<strong>Fordel:</strong> Reduceret administrativ byrde, systematisk og standardiseret dataindsamling og øget fokus på læring."
-                            },
-                            "video_title": "Se procedure logging i praksis",
-                            "feedback_system": {
-                                "title": "Systematisk og struktureret Feedback",
-                                "description": "Supervisors kan give struktureret feedback med objektive vurderinger baseret på etablerede vurderings-værktøjer som OSATS, NOTSS, Mini-CEX samt speciale- og procedurespecifikke vurderingsværktøjer. Systemet understøtter også audio-feedback med live-transkription.",
-                                "highlight": "<strong>Resultat:</strong> Op til 100+ objektive vurderinger per aktiv læge - et hidtil uset indblik i kompetenceudvikling, og deraf mulighed for at fokusere og udvikle på de områder hvor det giver mest læring."
-                            },
-                            "integration_video_title": "Se hvordan MediSkill let integreres i en travl hverdag"
-                        },
-                        "analytics": { 
-                            "title": "Data-Drevet Kompetenceudvikling",
-                            "procedure_overview": {
-                                "title": "Detaljeret Procedureoverblik",
-                                "description": "Systematisk registrering og visualisering af alle procedurer opdelt efter type og selvstændighedsniveau. Farvekodet progression fra assistent til selvstændig udførelse giver både uddannelseslæger og vejledere et præcist overblik over, hvor fokus skal lægges i den videre uddannelse.",
-                                "highlight": "<strong>Resultat:</strong> Evidensbaseret tilgang til kompetenceudvikling med dokumentation af faktisk erfaring frem for teoretisk viden."
-                            },
-                            "realtime_overview": {
-                                "title": "Realtids-overblik over progression",
-                                "description": "Visuel og brugervenlig præsentation af uddannelseslægernes progression med trends over tid. Uddannelsesansvarlige og vejledere kan følge udvikling og identificere områder med behov for fokuseret træning."
-                            },
-                            "competency_profiles": {
-                                "title": "Kompetenceprofiler",
-                                "description": "Detaljeret overblik over progression og færdigheder skaber kompetenceprofiler baseret på uddannelseslægernes faktiske hverdag. Dette skaber også nationale standarder og understøtter SST's anbefaling om kompetenceprofiler.",
-                                "highlight": "<strong>Innovation:</strong> Skræddersyede uddannelsesforløb baseret på individuelle kompetenceprofiler."
-                            }
-                        },
-                        "ai_mentor": { 
-                            "title": "AI Mentor Assistant",
-                            "integrated_mentoring": {
-                                "title": "Integrerede Mentor-samtaler",
-                                "description": "Vejledersamtaler kan foregå direkte i MediSkill, hvor al relevant information om uddannelseslægen fremgår. Strukturen følger SST's anbefalinger og tilpasses målbeskrivelser. Vejlederskemaer kan udfyldes i MediSkill og printes/gemmes direkte.",
-                                "bullets": {
-                                    "0": "Planlægning og struktur sikrer kontinuitet",
-                                    "1": "Al historisk data tilgængelig under samtalen sikrer effektivitet", 
-                                    "2": "AI-assisteret forberedelse og opfølgning"
-                                }
-                            },
-                            "intelligent_guidance": {
-                                "title": "24/7 Intelligent Vejledning",
-                                "description": "Både uddannelseslæger og vejledere har adgang til en AI-mentor med dybdegående indsigt i den individuelle progression. Systemet kan besvare spørgsmål om fremskridt, foreslå fokusområder og give personlige anbefalinger.",
-                                "highlight": "<strong>Eksempel:</strong> \"Hvordan går det med lægens fremgang i de sidste to måneder?\" - AI'en analyserer data og giver konkrete svar om procedurer, selvstændighed og progression."
-                            },
-                            "procedure_list": {
-                                "title": "Print din procedureliste",
-                                "description": "Slut med lommebøger og excel ark i forskellige formater. Standardiseret dokumentation sikrer ensartet CV præsentation, i et prædefineret format designet efter målbeskrivelser og lokale processer. Tilgængelig 24/7 og altid opdateret."
-                            },
-                            "wellness_monitoring": {
-                                "title": "Måling af trivsel og arbejdsmiljø",
-                                "description": "MediLife modulet giver mulighed for monitorering af trivsel og arbejdsmiljø på udvalgte parametre. God trivsel og optimal kompetenceudvikling hænger uløseligt sammen, og kontinuerlig monitorering giver mulighed for at sætte ind i tide."
-                            }
-                        },
-                        "cta": {
-                            "title": "Kom i gang med MediSkill",
-                            "subtitle": "Oplev hvordan MediSkill kan transformere jeres lægelige videreuddannelse",
-                            "demo_title": "Book en demo i dag",
-                            "benefit1": "• <strong>Gratis demonstration</strong> af alle platformens funktioner",
-                            "benefit2": "• <strong>Tilpasning til jeres behov</strong> og specialeområder",
-                            "benefit3": "• <strong>Implementation og support</strong> gennem hele processen",
-                            "contact_title": "Kontakt os",
-                            "founder_info": "Martin Lawaetz - Grundlægger & CEO<br>Speciallæge i Karkirurgi",
-                            "quote": "\"Fra egen erfaring ved jeg, hvor vigtig god supervision og feedback er.<br>MediSkill gør det muligt at systematisere og optimere disse processer<br>til gavn for både uddannelseslæger, vejledere og i sidste ende patienterne.\""
-                        }
-                    },
-                    en: {
-                        "meta": { "title": "MediSkill - Digital Support for Medical Training" },
-                        "hero": {
-                            "subtitle": "Digital Support for Medical Training",
-                            "tagline": "Structure, overview and coherence in competency development"
-                        },
-                        "about": {
-                            "title": "Developed Where It's Used",
-                            "description": "MediSkill was founded by Martin Lawaetz, specialist in vascular surgery. Inspired by gaps during his own training, it started as a local project and is now a fully functional digital tool. It has been developed and tested in the real everyday environment where doctors work. It has been important not to be just another documentation burden, but to be a tool that actually helps, makes documentation easier, and results in something that can be used concretely in daily practice.",
-                            "features": {
-                                "logbook": { "title": "📋 Digital Logbook", "description": "Standardized documentation of procedures and activities, always at hand." },
-                                "feedback": { "title": "💬 Structured Feedback", "description": "Systematic feedback through validated forms across training sites." },
-                                "competency": { "title": "📊 Competency Overview", "description": "Visual overview of progression and competency development." },
-                                "ai_mentor": { "title": "🤖 AI Mentor Assistant", "description": "24/7 guidance based on individual progression" }
-                            }
-                        },
-                        "platform": { 
-                            "title": "Platform Functionality",
-                            "procedure_logging": {
-                                "title": "Intuitive Procedure Logging",
-                                "description": "Trainees log procedures easily directly in the app. The system supports all medical and surgical specialties, adapted to learning objectives and local processes.",
-                                "highlight": "<strong>Benefit:</strong> Reduced administrative burden, systematic and standardized data collection, and increased focus on learning."
-                            },
-                            "video_title": "See procedure logging in practice",
-                            "feedback_system": {
-                                "title": "Systematic and Structured Feedback",
-                                "description": "Supervisors can provide structured feedback with objective assessments based on established assessment tools such as OSATS, NOTSS, Mini-CEX as well as specialty and procedure-specific assessment tools. The system also supports audio feedback with live transcription.",
-                                "highlight": "<strong>Result:</strong> Up to 100+ objective assessments per active trainee - an unprecedented insight into competency development, enabling focused development in areas that provide the most learning."
-                            },
-                            "integration_video_title": "See how MediSkill easily integrates into a busy workday"
-                        },
-                        "analytics": { 
-                            "title": "Data-Driven Competency Development",
-                            "procedure_overview": {
-                                "title": "Detailed Procedure Overview",
-                                "description": "Systematic registration and visualization of all procedures divided by type and level of independence. Color-coded progression from assistant to independent execution gives both trainees and supervisors a precise overview of where to focus in further training.",
-                                "highlight": "<strong>Result:</strong> Evidence-based approach to competency development with documentation of actual experience rather than theoretical knowledge."
-                            },
-                            "realtime_overview": {
-                                "title": "Real-time Progression Overview",
-                                "description": "Visual and user-friendly presentation of trainees' progression with trends over time. Training coordinators and supervisors can follow development and identify areas needing focused training."
-                            },
-                            "competency_profiles": {
-                                "title": "Competency Profiles",
-                                "description": "Detailed overview of progression and skills creates competency profiles based on trainees' actual daily work. This also creates national standards and supports health authority recommendations for competency profiles.",
-                                "highlight": "<strong>Innovation:</strong> Tailored training programs based on individual competency profiles."
-                            }
-                        },
-                        "ai_mentor": { 
-                            "title": "AI Mentor Assistant",
-                            "integrated_mentoring": {
-                                "title": "Integrated Mentoring Sessions",
-                                "description": "Supervisor meetings can take place directly in MediSkill, where all relevant information about the trainee is displayed. The structure follows health authority recommendations and is adapted to learning objectives. Supervisor forms can be completed in MediSkill and printed/saved directly.",
-                                "bullets": {
-                                    "0": "Planning and structure ensure continuity",
-                                    "1": "All historical data available during the session ensures efficiency", 
-                                    "2": "AI-assisted preparation and follow-up"
-                                }
-                            },
-                            "intelligent_guidance": {
-                                "title": "24/7 Intelligent Guidance",
-                                "description": "Both trainees and supervisors have access to an AI mentor with deep insight into individual progression. The system can answer questions about progress, suggest focus areas, and provide personal recommendations.",
-                                "highlight": "<strong>Example:</strong> \"How is the trainee's progress in the last two months?\" - The AI analyzes data and provides concrete answers about procedures, independence, and progression."
-                            },
-                            "procedure_list": {
-                                "title": "Print Your Procedure List",
-                                "description": "No more pocket books and Excel sheets in different formats. Standardized documentation ensures uniform CV presentation in a predefined format designed according to learning objectives and local processes. Available 24/7 and always updated."
-                            },
-                            "wellness_monitoring": {
-                                "title": "Wellness and Work Environment Monitoring",
-                                "description": "The MediLife module enables monitoring of wellness and work environment on selected parameters. Good wellness and optimal competency development are inextricably linked, and continuous monitoring enables timely intervention."
-                            }
-                        },
-                        "cta": {
-                            "title": "Get Started with MediSkill",
-                            "subtitle": "Experience how MediSkill can transform your medical training",
-                            "demo_title": "Book a demo today",
-                            "benefit1": "• <strong>Free demonstration</strong> of all platform features",
-                            "benefit2": "• <strong>Customization to your needs</strong> and specialty areas",
-                            "benefit3": "• <strong>Implementation and support</strong> throughout the process",
-                            "contact_title": "Contact us",
-                            "founder_info": "Martin Lawaetz - Founder & CEO<br>Specialist in Vascular Surgery",
-                            "quote": "\"From my own experience, I know how important good supervision and feedback are.<br>MediSkill makes it possible to systematize and optimize these processes<br>for the benefit of trainees, supervisors, and ultimately patients.\""
-                        }
-                    },
-                    sv: {
-                        "meta": { "title": "MediSkill - Digital stöd för läkarutbildning" },
-                        "hero": {
-                            "subtitle": "Digital stöd för läkarutbildning",
-                            "tagline": "Översikt, struktur och sammanhang i kompetensutvecklingen"
-                        },
-                        "about": {
-                            "title": "Utvecklad där den används",
-                            "description": "MediSkill grundades av Martin Lawaetz, specialist i kärlkirurgi. Inspirerad av brister under sin egen utbildning började det som ett lokalt projekt och är nu ett fullt funktionellt digitalt verktyg. Det har utvecklats och testats i den verkliga vardagen där läkare arbetar. Det har varit viktigt att inte bara vara ytterligare en dokumentationsbörda, utan att vara ett verktyg som faktiskt hjälper, gör dokumentation enklare och resulterar i något som kan användas konkret i vardagen.",
-                            "features": {
-                                "logbook": { "title": "📋 Digital loggbok", "description": "Standardiserad dokumentation av procedurer och aktiviteter, alltid till hands." },
-                                "feedback": { "title": "💬 Strukturerad feedback", "description": "Systematisk feedback genom validerade formulär över utbildningsplatser." },
-                                "competency": { "title": "📊 Kompetensöversikt", "description": "Visuell översikt över progression och kompetensutveckling." },
-                                "ai_mentor": { "title": "🤖 AI Mentor Assistent", "description": "24/7 vägledning baserad på individuell progression" }
-                            }
-                        },
-                        "platform": { 
-                            "title": "Plattformens funktionalitet",
-                            "procedure_logging": {
-                                "title": "Intuitiv procedurloggning",
-                                "description": "Utbildningsläkare loggar enkelt procedurer direkt i appen. Systemet stöder alla medicinska och kirurgiska specialiteter, anpassat till utbildningsmål och lokala processer.",
-                                "highlight": "<strong>Fördel:</strong> Minskad administrativ börda, systematisk och standardiserad datainsamling och ökat fokus på lärande."
-                            },
-                            "video_title": "Se procedurloggning i praktiken",
-                            "feedback_system": {
-                                "title": "Systematisk och strukturerad feedback",
-                                "description": "Handledare kan ge strukturerad feedback med objektiva bedömningar baserade på etablerade bedömningsverktyg som OSATS, NOTSS, Mini-CEX samt specialitets- och procedurspecifika bedömningsverktyg. Systemet stöder också ljudfeedback med live-transkription.",
-                                "highlight": "<strong>Resultat:</strong> Upp till 100+ objektiva bedömningar per aktiv läkare - en tidigare oanad insikt i kompetensutveckling, vilket möjliggör fokuserat utveckling inom områden som ger mest lärande."
-                            },
-                            "integration_video_title": "Se hur MediSkill enkelt integreras i en hektisk arbetsdag"
-                        },
-                        "analytics": { 
-                            "title": "Datadriven kompetensutveckling",
-                            "procedure_overview": {
-                                "title": "Detaljerad procedur översikt",
-                                "description": "Systematisk registrering och visualisering av alla procedurer uppdelade efter typ och självständighetsnivå. Färgkodad progression från assistent till självständigt utförande ger både utbildningsläkare och handledare en precis översikt över var fokus ska läggas i den fortsatta utbildningen.",
-                                "highlight": "<strong>Resultat:</strong> Evidensbaserad approach till kompetensutveckling med dokumentation av faktisk erfarenhet snarare än teoretisk kunskap."
-                            },
-                            "realtime_overview": {
-                                "title": "Realtidsöversikt över progression",
-                                "description": "Visuell och användarvänlig presentation av utbildningsläkarnas progression med trender över tid. Utbildningsansvariga och handledare kan följa utveckling och identifiera områden som behöver fokuserad träning."
-                            },
-                            "competency_profiles": {
-                                "title": "Kompetensprofiler",
-                                "description": "Detaljerad översikt över progression och färdigheter skapar kompetensprofiler baserade på utbildningsläkarnas faktiska vardag. Detta skapar också nationella standarder och stöder hälsomyndigheternas rekommendationer för kompetensprofiler.",
-                                "highlight": "<strong>Innovation:</strong> Skräddarsydda utbildningsprogram baserade på individuella kompetensprofiler."
-                            }
-                        },
-                        "ai_mentor": { 
-                            "title": "AI Mentor Assistent",
-                            "integrated_mentoring": {
-                                "title": "Integrerade handledningssamtal",
-                                "description": "Handledningssamtal kan äga rum direkt i MediSkill, där all relevant information om utbildningsläkaren visas. Strukturen följer hälsomyndigheternas rekommendationer och anpassas till utbildningsmål. Handledarformulär kan fyllas i i MediSkill och skrivas ut/sparas direkt.",
-                                "bullets": {
-                                    "0": "Planering och struktur säkerställer kontinuitet",
-                                    "1": "All historisk data tillgänglig under samtalet säkerställer effektivitet", 
-                                    "2": "AI-assisterad förberedelse och uppföljning"
-                                }
-                            },
-                            "intelligent_guidance": {
-                                "title": "24/7 intelligent vägledning",
-                                "description": "Både utbildningsläkare och handledare har tillgång till en AI-mentor med djup insikt i individuell progression. Systemet kan svara på frågor om framsteg, föreslå fokusområden och ge personliga rekommendationer.",
-                                "highlight": "<strong>Exempel:</strong> \"Hur går det med läkarens framsteg de senaste två månaderna?\" - AI:n analyserar data och ger konkreta svar om procedurer, självständighet och progression."
-                            },
-                            "procedure_list": {
-                                "title": "Skriv ut din procedurlista",
-                                "description": "Slut med fickböcker och Excel-ark i olika format. Standardiserad dokumentation säkerställer enhetlig CV-presentation i ett fördefinierat format designat enligt utbildningsmål och lokala processer. Tillgänglig 24/7 och alltid uppdaterad."
-                            },
-                            "wellness_monitoring": {
-                                "title": "Mätning av välbefinnande och arbetsmiljö",
-                                "description": "MediLife-modulen möjliggör övervakning av välbefinnande och arbetsmiljö på utvalda parametrar. Gott välbefinnande och optimal kompetensutveckling hänger oupplösligt samman, och kontinuerlig övervakning möjliggör snabb insats."
-                            }
-                        },
-                        "cta": {
-                            "title": "Kom igång med MediSkill",
-                            "subtitle": "Upplev hur MediSkill kan transformera er läkarutbildning",
-                            "demo_title": "Boka en demo idag",
-                            "benefit1": "• <strong>Gratis demonstration</strong> av alla plattformens funktioner",
-                            "benefit2": "• <strong>Anpassning till era behov</strong> och specialitetsområden",
-                            "benefit3": "• <strong>Implementation och support</strong> genom hela processen",
-                            "contact_title": "Kontakta oss",
-                            "founder_info": "Martin Lawaetz - Grundare & VD<br>Specialist i kärlkirurgi",
-                            "quote": "\"Från egen erfarenhet vet jag hur viktig god handledning och feedback är.<br>MediSkill gör det möjligt att systematisera och optimera dessa processer<br>till förmån för utbildningsläkare, handledare och i slutändan patienter.\""
-                        }
-                    }
-                };
-            }
-
-            setupEventListeners() {
-                const buttons = document.querySelectorAll('.lang-btn');
-                console.log(`Found ${buttons.length} language buttons`);
-                
-                buttons.forEach(btn => {
-                    btn.addEventListener('click', (e) => {
-                        e.preventDefault();
-                        const lang = e.target.getAttribute('data-lang');
-                        console.log(`Language button clicked: ${lang}`);
-                        this.setLanguage(lang);
-                    });
-                });
-            }
-
-            setLanguage(lang) {
-                console.log(`Setting language to: ${lang}`);
-                console.log('Available translations:', Object.keys(this.translations));
-                
-                if (!this.translations[lang]) {
-                    console.warn(`Language ${lang} not available`);
-                    return;
-                }
-
-                this.currentLang = lang;
-                localStorage.setItem('mediskill-lang', lang);
-                
-                // Update active button
-                document.querySelectorAll('.lang-btn').forEach(btn => {
-                    btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
-                });
-
-                // Update HTML lang attribute
-                document.documentElement.setAttribute('lang', lang);
-
-                // Update all translatable elements
-                this.updateTranslations();
-            }
-
-            updateTranslations() {
-                const elements = document.querySelectorAll('[data-translate]');
-                elements.forEach(element => {
-                    const key = element.getAttribute('data-translate');
-                    const translation = this.getNestedValue(this.translations[this.currentLang], key);
-                    
-                    if (translation) {
-                        if (element.tagName.toLowerCase() === 'title') {
-                            element.textContent = translation;
-                        } else {
-                            element.innerHTML = translation;
-                        }
-                    }
-                });
-            }
-
-            getNestedValue(obj, path) {
-                return path.split('.').reduce((current, key) => {
-                    return current && current[key] !== undefined ? current[key] : null;
-                }, obj);
-            }
-        }
-
-        // Initialize language switcher when DOM is loaded
-        document.addEventListener('DOMContentLoaded', () => {
-            console.log('DOM loaded, initializing LanguageSwitcher...');
-            const switcher = new LanguageSwitcher();
-            console.log('LanguageSwitcher created:', switcher);
-        });
-
-        // Smooth scrolling for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-
-        // Add scroll indicator click functionality
-        document.querySelector('.scroll-indicator').addEventListener('click', function() {
-            document.querySelector('.section').scrollIntoView({
-                behavior: 'smooth'
-            });
-        });
-    </script>
 </body>
 </html>

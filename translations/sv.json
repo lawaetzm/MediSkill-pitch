@@ -84,6 +84,120 @@
     "wellness_monitoring": {
       "title": "Mätning av välbefinnande och arbetsmiljö",
       "description": "MediLife-modulen möjliggör övervakning av välbefinnande och arbetsmiljö på utvalda parametrar. Gott välbefinnande och optimal kompetensutveckling hänger oupplösligt samman, och kontinuerlig övervakning möjliggör snabb insats."
+    },
+    "chatbox": {
+      "title": "AI Mentor Assistent",
+      "subtitle": "Ställ frågor om utbildningsdata, framsteg eller få insikter baserat på historisk data",
+      "user_message": "Hur går det med läkarens framsteg de senaste två månaderna?",
+      "ai_response": "- Procedurer utförs främst som \"Primär utan handledning\", vilket indikerar en hög grad av självständighet. 83 procedurer utfördes utan handledning och 13 procedurer som \"Primär med handledning\" de senaste två månaderna.<br><br>- Den genomsnittliga bedömningspoängen är stabil runt 4.5/5, vilket visar stabil och kompetent prestation. Senaste bedömningar visar en poäng på 4.0/5 för Lap. Appendektomi.<br><br>- Kommentarer inkluderar utmärkt fingerfärdighet och kritiskt tänkande, vilket framhäver utbildningsläkarens tekniska färdigheter och reflektionsförmåga. - Behov av träning i ledarskap och kommunikation i pressade situationer noteras också.<br><br>Utbildningsläkaren visar stabil framsteg med hög grad av självständighet i procedurgenomförande. Kommunikation och ledarskapsträning kan fokuseras på.",
+      "input_placeholder": "Skriv ditt meddelande här..."
+    },
+    "scheduling": {
+      "conversations_title": "Dina Handledningssamtal",
+      "ai_assistant_title": "Mentor AI Assistent",
+      "tabs": {
+        "scheduled": "Planerade",
+        "completed": "Slutförda",
+        "all": "Alla"
+      },
+      "conversations": [
+        {
+          "title": "Samtal",
+          "status": "Planerat",
+          "date": "12. aug. 2025, 06:18",
+          "description": "Introduktionssamtal"
+        },
+        {
+          "title": "Samtal",
+          "status": "Planerat",
+          "date": "15. okt. 2026, 06:19",
+          "description": "Justeringssamtal"
+        }
+      ],
+      "ai_welcome": "Hej! Jag är din mentee AI-assistent. Fråga mig om dina framsteg, procedurfördelning eller annat relaterat till din data. Till exempel \"Hur går det med mina framsteg de senaste två månaderna?\" eller \"Hur ofta utför jag procedurer självständigt?\"",
+      "input_placeholder": "Ställ en fråga..."
+    },
+    "conversation_modal": {
+      "introduction": {
+        "title": "Introduktionssamtal",
+        "total_indicator": "1 Total",
+        "date": "10.9.2025 13.04",
+        "participants": {
+          "mentor": "Mette Frederiksen",
+          "mentee": "Poul Nyrup",
+          "mentor_label": "Handledare:",
+          "mentee_label": "ST-läkare:"
+        },
+        "status": "Planerat",
+        "sections": {
+          "tidigare": {
+            "title": "Tidigare",
+            "content": "ST-läkarens tidigare anställningar, andra erfarenheter, inlärningsstil mv."
+          },
+          "opfolgning": {
+            "title": "Uppföljning av senaste anställning",
+            "content": "Viktigaste läranderesultat och särskilda fokusområden i tidigare tjänster."
+          },
+          "kompetencer": {
+            "title": "Hur kan de enskilda kompetenserna i tjänsten uppnås?",
+            "content": "Förväntningsjustering avseende arbetsområden mv. Gå igenom kompetenserna i loggboken och diskutera lärandemöjligheter för enskilda kompetenser."
+          },
+          "supervision": {
+            "title": "Handledning",
+            "content": "Avtal om fast och ad hoc-handledning."
+          },
+          "kompetencevurdering": {
+            "title": "Plan för kompetensbedömning",
+            "content": "Hur? När?"
+          },
+          "kompetencegodkendelse": {
+            "title": "Plan för kompetensgodkännande",
+            "content": "Under perioden  /  -  /        Planerat godkännande av kompetenser nr.:"
+          },
+          "kursusdeltagelse": {
+            "title": "Planerat kursdeltagande",
+            "content": "Obligatoriska kurser. Önskade förväntningar på övriga kurser, kongresser mv."
+          }
+        }
+      },
+      "adjustment": {
+        "title": "Justeringssamtal",
+        "total_indicator": "1 Total",
+        "date": "11.11.2025 13.39",
+        "participants": {
+          "mentor": "Mette Frederiksen",
+          "mentee": "Poul Nyrup",
+          "mentor_label": "Handledare:",
+          "mentee_label": "ST-läkare:"
+        },
+        "status": "Planerat",
+        "sections": {
+          "justeringssamtale": {
+            "title": "Justeringssamtal",
+            "content": "Minst 1 justeringssamtal hålls i varje anställning. Vid 12-månaders anställningar ofta fler, t.ex. var 3:e månad."
+          },
+          "punkter": {
+            "title": "Punkter:",
+            "content": "Hur går din utbildning generellt?<br><br>Har det planerade lärandet uppnåtts? Gå igenom loggboken: Har det förväntade antalet kompetenser godkänts? (Vid problem: Involvera utbildningskoordinator/PKL)"
+          },
+          "aftaler": {
+            "title": "Avtal för kommande period/justeringar avseende utbildningsplanen",
+            "content": "Notera avtal om kommande period baserat på utbildningsplanen"
+          },
+          "uddannelseslaegens_opgaver": {
+            "title": "ST-läkarens uppgifter",
+            "content": "Uppgifter som ST-läkaren ska utföra"
+          },
+          "tutorlaegen_opgaver": {
+            "title": "Handledarens uppgifter",
+            "content": "Uppgifter som handledaren ska utföra"
+          },
+          "naeste_samtale": {
+            "title": "Datum för nästa samtal",
+            "content": ""
+          }
+        }
+      }
     }
   },
   "cta": {

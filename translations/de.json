@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "title": "MediSkill - Digitale Unterstützung für die ärztliche Weiterbildung",
+    "lang": "de"
+  },
+  "hero": {
+    "subtitle": "Digitale Unterstützung für die ärztliche Weiterbildung",
+    "tagline": "Überblick, Struktur und Zusammenhang in der Kompetenzentwicklung"
+  },
+  "about": {
+    "title": "Entwickelt dort, wo es verwendet wird",
+    "description": "MediSkill wurde von Martin Lawaetz, Facharzt für Gefäßchirurgie, gegründet. Inspiriert von Mängeln während seiner eigenen Ausbildung begann es als lokales Projekt und ist nun ein voll funktionsfähiges digitales Tool. Es wurde in der realen Arbeitsumgebung entwickelt und getestet, in der Ärzte arbeiten. Es war wichtig, nicht nur eine weitere Dokumentationslast zu sein, sondern ein Tool zu schaffen, das tatsächlich hilft, die Dokumentation erleichtert und zu etwas führt, das konkret im Alltag verwendet werden kann.",
+    "features": {
+      "logbook": {
+        "title": "📋 Digitales Logbuch",
+        "description": "Standardisierte Dokumentation von Eingriffen und Aktivitäten, immer griffbereit."
+      },
+      "feedback": {
+        "title": "💬 Strukturiertes Feedback",
+        "description": "Systematisches Feedback durch validierte Formulare über Ausbildungsstätten hinweg."
+      },
+      "competency": {
+        "title": "📊 Kompetenzübersicht",
+        "description": "Visuelle Übersicht über Fortschritt und Kompetenzentwicklung."
+      },
+      "ai_mentor": {
+        "title": "🤖 KI-Mentor-Assistent",
+        "description": "24/7 Betreuung basierend auf individueller Entwicklung"
+      }
+    }
+  },
+  "platform": {
+    "title": "Plattform-Funktionalität",
+    "procedure_logging": {
+      "title": "Intuitive Eingriffsprotokollierung",
+      "description": "Assistenzärzte protokollieren Eingriffe einfach direkt in der App. Das System unterstützt alle medizinischen und chirurgischen Fachbereiche, angepasst an Lernziele und lokale Prozesse.",
+      "highlight": "Reduzierte administrative Belastung, systematische und standardisierte Datenerfassung und verstärkter Fokus auf das Lernen."
+    },
+    "video_title": "Eingriffsprotokollierung in der Praxis sehen",
+    "feedback_system": {
+      "title": "Systematisches und strukturiertes Feedback",
+      "description": "Supervisoren können strukturiertes Feedback mit objektiven Bewertungen basierend auf etablierten Bewertungstools wie OSATS, NOTSS, Mini-CEX sowie fachbereichs- und eingriffsSpezifischen Bewertungstools geben. Das System unterstützt auch Audio-Feedback mit Live-Transkription.",
+      "highlight": "Bis zu 100+ objektive Bewertungen pro aktivem Assistenzarzt - ein beispielloser Einblick in die Kompetenzentwicklung, der es ermöglicht, sich auf Bereiche zu konzentrieren, die das meiste Lernen bieten."
+    },
+    "integration_video_title": "Sehen Sie, wie MediSkill sich einfach in einen geschäftigen Arbeitsalltag integriert"
+  },
+  "analytics": {
+    "title": "Datengesteuerte Kompetenzentwicklung",
+    "procedure_overview": {
+      "title": "Detaillierte Eingriffsübersicht",
+      "description": "Systematische Erfassung und Visualisierung aller Eingriffe aufgeteilt nach Typ und Selbstständigkeitsniveau. Farbkodierte Progression vom Assistenten zur selbstständigen Durchführung gibt sowohl Assistenzärzten als auch Supervisoren einen präzisen Überblick darüber, wo der Fokus in der weiteren Ausbildung gelegt werden sollte.",
+      "highlight": "Evidenzbasierter Ansatz zur Kompetenzentwicklung mit Dokumentation tatsächlicher Erfahrung anstatt theoretischen Wissens."
+    },
+    "realtime_overview": {
+      "title": "Echtzeit-Übersicht über den Fortschritt",
+      "description": "Visuelle und benutzerfreundliche Darstellung des Fortschritts der Assistenzärzte mit Trends über die Zeit. Ausbildungskoordinatoren und Supervisoren können die Entwicklung verfolgen und Bereiche identifizieren, die fokussiertes Training benötigen."
+    },
+    "competency_profiles": {
+      "title": "Kompetenzprofile",
+      "description": "Detaillierte Übersicht über Fortschritt und Fähigkeiten erstellt Kompetenzprofile basierend auf der tatsächlichen täglichen Arbeit der Assistenzärzte. Dies schafft auch nationale Standards und unterstützt die Empfehlungen der Gesundheitsbehörden für Kompetenzprofile.",
+      "highlight": "Maßgeschneiderte Ausbildungsprogramme basierend auf individuellen Kompetenzprofilen."
+    }
+  },
+  "ai_mentor": {
+    "title": "KI-Mentor-Assistent",
+    "integrated_mentoring": {
+      "title": "Integrierte Mentoring-Gespräche",
+      "description": "Supervisorengespräche können direkt in MediSkill stattfinden, wo alle relevanten Informationen über den Assistenzarzt angezeigt werden. Die Struktur folgt den Empfehlungen der Gesundheitsbehörden und ist an Lernziele angepasst. Supervisoren-Formulare können in MediSkill ausgefüllt und direkt gedruckt/gespeichert werden.",
+      "bullets": [
+        "Planung und Struktur gewährleisten Kontinuität",
+        "Alle historischen Daten während des Gesprächs verfügbar sorgen für Effizienz",
+        "KI-unterstützte Vorbereitung und Nachbereitung"
+      ]
+    },
+    "intelligent_guidance": {
+      "title": "24/7 Intelligente Betreuung",
+      "description": "Sowohl Assistenzärzte als auch Supervisoren haben Zugang zu einem KI-Mentor mit tiefgreifenden Einblicken in die individuelle Entwicklung. Das System kann Fragen zum Fortschritt beantworten, Fokusbereichevorschlagen und persönliche Empfehlungen geben.",
+      "highlight": "\"Wie ist der Fortschritt des Arztes in den letzten zwei Monaten?\" - Die KI analysiert Daten und gibt konkrete Antworten zu Eingriffen, Selbstständigkeit und Entwicklung."
+    },
+    "chatbox": {
+      "title": "KI-Mentor-Assistent",
+      "subtitle": "Stellen Sie Fragen zu Auszubildendendaten, Fortschritt oder erhalten Sie Einblicke basierend auf historischen Daten",
+      "user_message": "Wie ist der Fortschritt des Auszubildenden in den letzten zwei Monaten?",
+      "ai_response": "- Eingriffe werden hauptsächlich als \"Primär ohne Supervision\" durchgeführt, was einen hohen Grad an Selbstständigkeit anzeigt. 83 Eingriffe wurden ohne Supervision und 13 Eingriffe als \"Primär mit Supervision\" in den letzten zwei Monaten durchgeführt.<br><br>- Die durchschnittliche Bewertungspunktzahl ist stabil um 4,5/5, was eine stabile und kompetente Leistung zeigt. Neueste Bewertungen zeigen eine Punktzahl von 4,0/5 für Lap. Appendektomie.<br><br>- Kommentare umfassen ausgezeichnete Geschicklichkeit und kritisches Denken, was die technischen Fähigkeiten und Reflexionsfähigkeiten des Auszubildenden hervorhebt. - Bedarf an Training in Führung und Kommunikation in stressigen Situationen wird ebenfalls vermerkt.<br><br>Der Auszubildende zeigt stabilen Fortschritt mit einem hohen Grad an Selbstständigkeit bei der Durchführung von Eingriffen. Kommunikations- und Führungstraining kann fokussiert werden.",
+      "input_placeholder": "Geben Sie Ihre Nachricht hier ein..."
+    },
+    "scheduling": {
+      "conversations_title": "Ihre Mentor-Gespräche",
+      "ai_assistant_title": "Mentor-KI-Assistent",
+      "tabs": {
+        "scheduled": "Geplant",
+        "completed": "Abgeschlossen",
+        "all": "Alle"
+      },
+      "conversations": [
+        {
+          "title": "Gespräch",
+          "status": "Geplant",
+          "date": "12. Aug. 2025, 06:18",
+          "description": "Einführungsgespräch"
+        },
+        {
+          "title": "Gespräch",
+          "status": "Geplant",
+          "date": "15. Okt. 2026, 06:19",
+          "description": "Anpassungsgespräch"
+        }
+      ],
+      "ai_welcome": "Hallo! Ich bin Ihr Auszubildenden-KI-Assistent. Fragen Sie mich nach Ihrem Fortschritt, Ihrer Eingriffsverteilung oder allem anderen, was mit Ihren Daten zusammenhängt. Zum Beispiel \"Wie ist mein Fortschritt in den letzten zwei Monaten?\" oder \"Wie oft führe ich Eingriffe selbstständig durch?\"",
+      "input_placeholder": "Stellen Sie eine Frage..."
+    },
+    "conversation_modal": {
+      "introduction": {
+        "title": "Einführungsgespräch",
+        "total_indicator": "1 Gesamt",
+        "date": "10.9.2025 13.04",
+        "participants": {
+          "mentor": "Mette Frederiksen",
+          "mentee": "Poul Nyrup",
+          "mentor_label": "Mentor:",
+          "mentee_label": "Auszubildender:"
+        },
+        "status": "Geplant",
+        "sections": {
+          "tidligere": {
+            "title": "Frühere Erfahrungen",
+            "content": "Vorherige Anstellungen des Auszubildenden, andere Erfahrungen, Lernstil usw."
+          },
+          "opfolgning": {
+            "title": "Nachbereitung der letzten Anstellung",
+            "content": "Wichtigste Lernergebnisse und besondere Schwerpunktbereiche in vorherigen Positionen."
+          },
+          "kompetencer": {
+            "title": "Wie können die einzelnen Kompetenzen in der Position erreicht werden?",
+            "content": "Erwartungsabstimmung bezüglich Arbeitsbereiche usw. Kompetenzen im Logbuch durchgehen und Lernmöglichkeiten für einzelne Kompetenzen diskutieren."
+          },
+          "supervision": {
+            "title": "Supervision",
+            "content": "Vereinbarungen über feste und ad-hoc-Supervision."
+          },
+          "kompetencevurdering": {
+            "title": "Plan für Kompetenzbewertung",
+            "content": "Wie? Wann?"
+          },
+          "kompetencegodkendelse": {
+            "title": "Plan für Kompetenzgenehmigung",
+            "content": "Im Zeitraum  /  -  /        Geplante Genehmigung von Kompetenzen Nr.:"
+          },
+          "kursusdeltagelse": {
+            "title": "Geplante Kursteilnahme",
+            "content": "Pflichtveranstaltungen. Gewünschte Erwartungen für andere Kurse, Kongresse usw."
+          }
+        }
+      },
+      "adjustment": {
+        "title": "Anpassungsgespräch",
+        "total_indicator": "1 Gesamt",
+        "date": "11.11.2025 13.39",
+        "participants": {
+          "mentor": "Mette Frederiksen",
+          "mentee": "Poul Nyrup",
+          "mentor_label": "Mentor:",
+          "mentee_label": "Auszubildender:"
+        },
+        "status": "Geplant",
+        "sections": {
+          "justeringssamtale": {
+            "title": "Anpassungsgespräch",
+            "content": "Mindestens 1 Anpassungsgespräch wird in jeder Anstellung geführt. Bei 12-monatigen Anstellungen oft mehr, z.B. alle 3 Monate."
+          },
+          "punkter": {
+            "title": "Punkte:",
+            "content": "Wie läuft Ihr Ausbildungsprogramm allgemein?<br><br>Wurde das geplante Lernen erreicht? Logbuch überprüfen: Wurde die erwartete Anzahl von Kompetenzen genehmigt? (Bei Problemen: Ausbildungskoordinator/PKL einbeziehen)"
+          },
+          "aftaler": {
+            "title": "Vereinbarungen für die kommende Periode/Anpassungen des Ausbildungsplans",
+            "content": "Vereinbarungen über die kommende Periode basierend auf dem Ausbildungsplan notieren"
+          },
+          "uddannelseslaegens_opgaver": {
+            "title": "Aufgaben des Auszubildenden",
+            "content": "Aufgaben, die der Auszubildende ausführen soll"
+          },
+          "tutorlaegen_opgaver": {
+            "title": "Aufgaben des Supervisors",
+            "content": "Aufgaben, die der Supervisor ausführen soll"
+          },
+          "naeste_samtale": {
+            "title": "Datum für das nächste Gespräch",
+            "content": ""
+          }
+        }
+      }
+    }
+  },
+  "cta": {
+    "title": "Legen Sie mit MediSkill los",
+    "subtitle": "Erleben Sie, wie MediSkill Ihre ärztliche Ausbildung transformieren kann",
+    "demo_title": "Buchen Sie noch heute eine Demo",
+    "benefit1": "• <strong>Kostenlose Demonstration</strong> aller Plattformfunktionen",
+    "benefit2": "• <strong>Anpassung an Ihre Bedürfnisse</strong> und Fachbereiche",
+    "benefit3": "• <strong>Implementierung und Support</strong> während des gesamten Prozesses",
+    "benefit4": "• <strong>Keine Verpflichtungen</strong> - sehen Sie zuerst, was MediSkill bieten kann",
+    "contact_title": "Kontaktieren Sie uns",
+    "contact_info": {
+      "email": "info@mediskill.dk",
+      "phone": "+45 31 54 08 85",
+      "website": "mediskill.dk"
+    },
+    "founder_info": "Martin Lawaetz - Gründer & CEO<br>Facharzt für Gefäßchirurgie",
+    "quote": "\"Aus eigener Erfahrung weiß ich, wie wichtig gute Supervision und Feedback sind.<br>MediSkill macht es möglich, diese Prozesse zu systematisieren und zu optimieren<br>zum Nutzen von Auszubildenden, Supervisoren und letztendlich Patienten.\""
+  },
+  "procedure_list": {
+    "title": "Drucken Sie Ihre Eingriffsliste",
+    "description": "Schluss mit Notizbüchern und Excel-Tabellen in verschiedenen Formaten. Standardisierte Dokumentation gewährleistet einheitliche Lebenslauf-Präsentation in einem vordefinierten Format, das nach Lernzielen und lokalen Prozessen gestaltet ist. Rund um die Uhr verfügbar und immer aktuell."
+  },
+  "wellness_monitoring": {
+    "title": "Messung von Wohlbefinden und Arbeitsumgebung",
+    "description": "Das MediLife-Modul ermöglicht die Überwachung von Wohlbefinden und Arbeitsumgebung anhand ausgewählter Parameter. Gutes Wohlbefinden und optimale Kompetenzentwicklung sind untrennbar miteinander verbunden, und kontinuierliche Überwachung ermöglicht rechtzeitiges Eingreifen."
+  }
+}

@@ -84,6 +84,120 @@
     "wellness_monitoring": {
       "title": "Måling af trivsel og arbejdsmiljø",
       "description": "MediLife modulet giver mulighed for monitorering af trivsel og arbejdsmiljø på udvalgte parametre. God trivsel og optimal kompetenceudvikling hænger uløseligt sammen, og kontinuerlig monitorering giver mulighed for at sætte ind i tide."
+    },
+    "chatbox": {
+      "title": "AI Mentor Assistant",
+      "subtitle": "Stil spørgsmål om mentee data, fremskridt, eller få indsigt baseret på historiske data",
+      "user_message": "Hvordan går det med lægens fremgang i de sidste to måneder?",
+      "ai_response": "- Der er primært udført procedurer som \"Primær uden supervision\", hvilket indikerer en høj grad af selvstændighed. Der er udført 83 procedurer uden supervision og 13 procedurer som \"Primær med supervision\" i de sidste to måneder.<br><br>- Den gennemsnitlige vurderingsscore er stabil omkring 4.5/5, hvilket viser stabil og kompetent præstation. De seneste vurderinger viser en score på 4.0/5 for Lap. Appendektomi.<br><br>- Kommentarer omfatter excellent fingerfærdighed og kritisk syn, som fremhæver uddannelseslægens tekniske færdigheder og refleksionsevner. - Der påpeges også behov for træning i ledelse og kommunikation i pressede situationer.<br><br>Uddannelseslægen har stabil fremgang med en høj grad af selvstændighed i udførelsen af procedurer. Der kan arbejdes på kommunikation og ledelsetræning.",
+      "input_placeholder": "Skriv din besked her..."
+    },
+    "scheduling": {
+      "conversations_title": "Dine Mentor Samtaler",
+      "ai_assistant_title": "Mentor AI Assistant",
+      "tabs": {
+        "scheduled": "Planlagt",
+        "completed": "Fuldført",
+        "all": "Alle"
+      },
+      "conversations": [
+        {
+          "title": "Samtale",
+          "status": "Planlagt",
+          "date": "12. aug. 2025, 06:18",
+          "description": "Introduktionssamtale"
+        },
+        {
+          "title": "Samtale",
+          "status": "Planlagt", 
+          "date": "15. okt. 2026, 06:19",
+          "description": "Justeringssamtale"
+        }
+      ],
+      "ai_welcome": "Hej! Jeg er din mentee AI-assistent. Spørg mig om dine fremskridt, din procedure fordeling, eller andet relateret til din data. F.eks. \"Hvordan går det med min fremgang i de sidste to måneder?\" eller \"Hvor ofte udfører jeg procedurer selvstændigt?\"",
+      "input_placeholder": "Stil et spørgsmål..."
+    },
+    "conversation_modal": {
+      "introduction": {
+        "title": "Introduktionssamtale",
+        "total_indicator": "1 Total",
+        "date": "10.9.2025 13.04",
+        "participants": {
+          "mentor": "Mette Frederiksen",
+          "mentee": "Poul Nyrup",
+          "mentor_label": "Mentor:",
+          "mentee_label": "Mentee:"
+        },
+        "status": "Planlagt",
+        "sections": {
+          "tidligere": {
+            "title": "Tidligere",
+            "content": "Uddannelseslægens tidligere ansættelser, andre erfaringer, læringsstil mv."
+          },
+          "opfolgning": {
+            "title": "Opfølgning på sidste ansættelse",
+            "content": "Vigtigste læringsudbytte og særlige indsatsområder i tidligere stillinger."
+          },
+          "kompetencer": {
+            "title": "Hvordan kan de enkelte kompetencer i stillingen opnås?",
+            "content": "Forventningsafstemning i.f.t. arbejdsområder mv. Gennemgå kompetencerne i logbogen og diskuter læringsmuligheder for de enkelte kompetencer."
+          },
+          "supervision": {
+            "title": "Supervision",
+            "content": "Aftaler om fast og ad hoc supervision."
+          },
+          "kompetencevurdering": {
+            "title": "Plan for kompetencevurdering",
+            "content": "Hvordan? Hvornår?"
+          },
+          "kompetencegodkendelse": {
+            "title": "Plan for kompetencegodkendelse",
+            "content": "I perioden  /  -  /        Planlægges godkendelse af kompetencer nr.:"
+          },
+          "kursusdeltagelse": {
+            "title": "Planlagt kursusdeltagelse",
+            "content": "Obligatoriske kurser. Ønskede forventninger til øvrige kurser, kongresser mv."
+          }
+        }
+      },
+      "adjustment": {
+        "title": "Justeringssamtale",
+        "total_indicator": "1 Total",
+        "date": "11.11.2025 13.39",
+        "participants": {
+          "mentor": "Mette Frederiksen",
+          "mentee": "Poul Nyrup",
+          "mentor_label": "Mentor:",
+          "mentee_label": "Mentee:"
+        },
+        "status": "Planlagt",
+        "sections": {
+          "justeringssamtale": {
+            "title": "Justeringssamtale",
+            "content": "Der afholdes minimum 1 justeringssamtale i hver ansættelse. Ved 12-måneders ansættelser ofte flere, fx hver 3. måned."
+          },
+          "punkter": {
+            "title": "Punkter:",
+            "content": "Hvordan går det generelt med dit uddannelsesforløb?<br><br>Er den planlagte læring opnået? Gennemgå logbogen: Er det forventede antal kompetencer godkendt? (Hvis problemer: Indrag uddannelseskoordinator/PKL)"
+          },
+          "aftaler": {
+            "title": "Aftaler for den kommende periode/justeringer i.f.t. uddannelsesplanen",
+            "content": "Noter aftaler om den kommende periode baseret på uddannelsesplanen"
+          },
+          "uddannelseslaegens_opgaver": {
+            "title": "Uddannelseslægens opgaver",
+            "content": "Opgaver som uddannelseslægen skal udføre"
+          },
+          "tutorlaegen_opgaver": {
+            "title": "Tutorlægens opgaver",
+            "content": "Opgaver som tutorlægen skal udføre"
+          },
+          "naeste_samtale": {
+            "title": "Dato for næste samtale",
+            "content": ""
+          }
+        }
+      }
     }
   },
   "cta": {
